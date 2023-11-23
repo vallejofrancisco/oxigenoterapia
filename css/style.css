@@ -1,0 +1,497 @@
+.logo-img {
+    width: 50px;
+}
+
+header {
+    margin-bottom: 70px;
+}
+
+.navbar {
+    background-color: rgba(207, 255, 234, 1);
+}
+
+.navbar-desktop {
+    display: none;
+}
+
+#offcanvasDarkNavbar {
+    background-color: rgba(207, 255, 234, 1);
+}
+
+#bg-dropdown-menu {
+    background-color: rgba(207, 255, 234, 1);
+}
+
+.ul-nav {
+    list-style: none;
+}
+
+.ul-item {
+    margin-left: -30px;
+}
+
+.card-img-art {
+    height: 300px;
+}
+
+.card-text-art {
+    color: black;
+    margin-top: 100px;
+}
+
+.flex-nos {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondo {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/medinor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nos-txt {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 150px;
+    background-color: rgba(176, 176, 176, 0.350);
+    text-align: center;
+}
+
+.alert {
+    height: 120px;
+}
+
+.text-alert {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-link-mobile {
+    text-align: center;
+    margin: 2px;
+}
+
+.card-link-desktop {
+    display: none;
+}
+
+.img-carousel {
+    height: 200px;
+    width: 100%;
+    padding: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: #CCC;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #CCC;
+    text-decoration: none;
+}
+
+/* PAGINA ACERCA DE NOSOTROS */
+
+
+.index-card-us {
+    display: flex;
+    justify-content: center;
+    background-color: #f4fff4;
+}
+
+.card-page-us {
+    margin: 10px;
+}
+
+.card-img-us {
+    height: 300px;
+}
+
+.card-title-us {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-text-us {
+    font-size: 14px;
+}
+
+.map-us {
+    margin: 5px;
+    background-color: #f4fff4;
+}
+
+.map-title {
+    text-align: center;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 20px;
+}
+
+.card-aside-us {
+    background-color: #f4fff4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-contact-us {
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.card-title-aside {
+    font-size: 20px;
+}
+
+/* PAGINA PRODUCTOS */
+
+.article-prod {
+    background-color: #f4fff4;
+    margin-top: 80px;
+}
+
+#terapiadeoxigeno {
+    background-color: #f4fff4;
+}
+
+.name-carousel {
+    text-align: center;
+}
+
+.flex-prod {
+    display: flex;
+    align-items: row;
+    justify-content: center;
+}
+
+.card-prod {
+    width: 10rem;
+    margin: 8px;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.card-img-prod {
+    height: 120px;
+}
+
+.prod-title {
+    text-align: center;
+    font-size: 15px;
+    height: 25px;
+}
+
+.prod-text {
+    text-align: start;
+    padding: 5px;
+    font-size: 12px;
+    height: 70px;
+}
+
+.prod-btn {
+    text-align: center;   
+    margin-top: 40px;
+    opacity: 0.8;  
+    z-index: 999999999;
+}
+
+.btn-info {
+    text-decoration: none;
+    color: #000;
+}
+
+.custom-nav {
+    filter: invert(1) sepia(100%) saturate(0%) hue-rotate(200deg) brightness(200%);
+    z-index: 1; /* Asegura que las flechas estén encima de las tarjetas */
+}
+  
+.subtitle-carousel {
+    font-size: 10px;
+}
+
+.aside-prod {
+    margin: 5px;
+    background-color: #f4fff4;
+}
+
+.alert-aside-prod {
+    padding: 15px;
+}
+
+.alert-aside-prod p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}
+
+.whatsapp-button img {
+    width: 50%; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+
+@media screen and (min-width: 800px) {
+    .navbar-mobile {
+        display: none;
+    }
+
+    .navbar-desktop {
+        display: inline-block;
+    }
+
+    .nav-desktop {
+        background-color: rgba(207, 255, 234, 1);
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .desktop-logo {
+        height: 70px;
+    }
+
+    .navbar-nav {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    article {
+        background-color: #f4fff4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-nos {
+        width: 60%;
+        height: 450px;
+    }
+
+    .alert-index {
+        width: 60%;
+    }
+
+    .text-alert {
+        font-size: 17px;
+        font-weight: 900;
+        color: #b20000;
+    }
+
+    .card-link-mobile {
+        display: none;
+    }
+
+    .card-link-desktop {
+        display: block;
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    .card-article-desktop {
+        min-height: 200px;
+        max-height: 300px;
+    }
+
+    .card-article-desktop h5 {
+        margin: 10px;
+        height: 30px;
+    }
+
+    .card-article-desktop p {
+        margin: 10px;
+        min-height: 100px;
+        max-height: 100px;
+    }
+
+    .card-article-desktop a {
+        margin: 10px;
+    }
+
+    .btn-art-desk {
+        text-align: center;
+    }
+
+    .aside-mobile {
+        display: none;
+    }
+
+    /*PAGINA NOSOTROS*/
+
+    .body-nos {
+        background-color: #f4fff4;
+    }
+
+    .article-nos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 100px 50px 10px 50px;
+    }
+
+    .index-card-us {
+        width: 50%;
+    }
+
+    .map-us {
+        width: 50%;
+    }
+
+    .card-title-us {
+        font-size: 25px;
+    }
+
+    .card-text-us {
+        font-size: 17px;
+    }
+
+    .card-aside-us{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-contact-us {
+        width: 30%;
+        margin: 10px 60px 20px 60px;
+    }
+
+    .card-body-desk {
+        background-color: #f4fff4;
+    }
+    
+    /*PAGINA PRODUCTOS*/
+
+    .body-prod {
+        background-color: #f4fff4;
+    }
+
+    .article-prod {
+        background-color: #f4fff4;
+        margin-top: 40px;
+    }
+    
+    .prod-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #terapiadeoxigeno {
+        background-color: #f4fff4;
+    }
+    
+    .name-carousel {
+        text-align: center;
+    }
+    
+    .flex-prod {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-prod {
+        min-height: 500px;
+        max-height: 500px;
+        width: 400px;
+    }
+    
+    .card-img-prod {
+        height: 300px;
+    }
+    
+    .prod-title {
+        text-align: center;
+        font-size: 15px;
+        height: 25px;
+    }
+    
+    .prod-text {
+        text-align: start;
+        padding: 5px;
+        font-size: 12px;
+        height: 70px;
+    }
+    
+    .prod-btn {
+        text-align: center;   
+        margin-top: 40px;
+        opacity: 0.8;  
+        z-index: 999999999;
+    }
+    
+    .btn-info {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .custom-nav {
+        filter: invert(1) sepia(100%) saturate(0%) hue-rotate(200deg) brightness(200%);
+        z-index: 1; /* Asegura que las flechas estén encima de las tarjetas */
+    }
+      
+    .subtitle-carousel {
+        font-size: 10px;
+    }
+    
+
+    
+}
