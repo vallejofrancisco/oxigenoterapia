@@ -10,6 +10,10 @@ header {
     background-color: rgba(207, 255, 234, 1);
 }
 
+.title-mobile {
+    font-size: 10px;
+}
+
 .navbar-desktop {
     display: none;
 }
@@ -298,6 +302,20 @@ iframe {
         background-color: rgba(207, 255, 234, 1);
         margin-left: 70px;
         margin-right: 70px;
+    }
+
+    .title-desktop {
+        font-size: 22px;
+        margin: -1px;
+        font-family: 'Lexend Zetta', sans-serif;
+    }
+
+    .title2-desktop {
+        font-size: 12px;
+    }
+
+    .subtitle-desktop {
+        margin: -3px;
     }
 
     .desktop-logo {
