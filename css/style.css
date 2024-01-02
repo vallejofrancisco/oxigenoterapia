@@ -7,7 +7,7 @@ header {
 }
 
 .navbar {
-    background-color: rgba(207, 255, 234, 1);
+    background-color: #81ffaf;
 }
 
 .title-mobile {
@@ -19,11 +19,11 @@ header {
 }
 
 #offcanvasDarkNavbar {
-    background-color: rgba(207, 255, 234, 1);
+    background-color: #7bfdab;
 }
 
 #bg-dropdown-menu {
-    background-color: rgba(207, 255, 234, 1);
+    background-color: #7bfdab;
 }
 
 .ul-nav {
@@ -67,12 +67,13 @@ header {
     text-align: center;
 }
 
-.alert {
+.alert-index {
     height: 120px;
+    background-color: #81ffaf;
 }
 
 .text-alert {
-    color: rgb(0, 0, 0);
+    color: #000;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
@@ -87,7 +88,7 @@ header {
     display: none;
 }
 
-.img-carousel {
+.img-carousel-index {
     height: 200px;
     width: 100%;
     padding: 18px;
@@ -123,7 +124,7 @@ footer a {
 }
 
 .card-img-us {
-    height: 300px;
+    height: 400px;
 }
 
 .card-title-us {
@@ -203,8 +204,8 @@ iframe {
 .card-prod {
     width: 10rem;
     margin: 8px;
-    min-height: 300px;
-    max-height: 300px;
+    min-height: 350px;
+    max-height: 350px;
 }
 
 .card-img-prod {
@@ -221,12 +222,12 @@ iframe {
     text-align: start;
     padding: 5px;
     font-size: 12px;
-    height: 70px;
+    height: 85px;
 }
 
 .prod-btn {
     text-align: center;   
-    margin-top: 40px;
+    margin-top: 80px;
     opacity: 0.8;  
     z-index: 999999999;
 }
@@ -299,7 +300,7 @@ iframe {
     }
 
     .nav-desktop {
-        background-color: rgba(207, 255, 234, 1);
+        background-color: #81ffaf;
         margin-left: 70px;
         margin-right: 70px;
     }
@@ -342,12 +343,14 @@ iframe {
 
     .alert-index {
         width: 60%;
+        background-color: #81ffaf;
+        margin-bottom: 10px;
     }
 
     .text-alert {
         font-size: 17px;
         font-weight: 900;
-        color: #b20000;
+        color: #e13636;
     }
 
     .card-link-mobile {
@@ -385,7 +388,14 @@ iframe {
     }
 
     .aside-mobile {
-        display: none;
+        background-color: #f4fff4;
+        text-align: center;
+    }
+
+    .img-carousel-index {
+        min-height: 300px;
+        max-height: 300px;
+        width: 50%;
     }
 
     /*PAGINA NOSOTROS*/
