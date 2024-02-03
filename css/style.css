@@ -6,9 +6,6 @@ header {
     margin-bottom: 70px;
 }
 
-.navbar {
-    background-color: #81ffaf;
-}
 
 .title-mobile {
     font-size: 10px;
@@ -19,11 +16,12 @@ header {
 }
 
 #offcanvasDarkNavbar {
-    background-color: #7bfdab;
+    background-color: #26924e;
+    color: #FFFFFF;
 }
 
 #bg-dropdown-menu {
-    background-color: #7bfdab;
+    background-color: #26924e;
 }
 
 .ul-nav {
@@ -39,7 +37,6 @@ header {
 }
 
 .card-text-art {
-    color: black;
     margin-top: 100px;
 }
 
@@ -59,7 +56,7 @@ header {
 }
 
 .nos-txt {
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     font-weight: 500;
     padding: 20px;
     margin-top: 150px;
@@ -73,7 +70,7 @@ header {
 }
 
 .text-alert {
-    color: #000;
+    color: #040082;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
@@ -300,9 +297,9 @@ iframe {
     }
 
     .nav-desktop {
-        background-color: #81ffaf;
         margin-left: 70px;
         margin-right: 70px;
+        color: #FFFFFF;
     }
 
     .title-desktop {
@@ -343,14 +340,13 @@ iframe {
 
     .alert-index {
         width: 60%;
-        background-color: #81ffaf;
         margin-bottom: 10px;
     }
 
     .text-alert {
         font-size: 17px;
         font-weight: 900;
-        color: #e13636;
+        color: #040082;
     }
 
     .card-link-mobile {
